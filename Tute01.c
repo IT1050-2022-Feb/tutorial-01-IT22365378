@@ -10,10 +10,10 @@ int main(void) {
   float average;
 
   printf("enter the mark of first subject : ");
-  scanf("%d\n" ,&no1);
+  scanf("%d" ,&no1);
 
   printf("enter the mark of second subject : ");
-  scanf("%d\n" ,&no2);
+  scanf("%d" ,&no2);
 
   average = (no1 + no2) / 2.0;     //find average
 
