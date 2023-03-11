@@ -15,7 +15,7 @@ int main(void) {
   printf("enter the mark of second subject : ");
   scanf("%d\n" ,&no2);
 
-  avg = (no1 + no2) / 2.0;     //find average
+  average = (no1 + no2) / 2.0;     //find average
 
   printf("average = %.2f" , average);   //output average
 
